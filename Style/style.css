@@ -29,8 +29,12 @@ header{
     margin-top: 25px;
 }
 
+.title{
+    font-size: 45px;
+}
+
 h1{
-    color: rgb(189, 73, 164);
+    color: rgb(224, 88, 195);
 }
 
 main{
@@ -41,5 +45,25 @@ main{
     margin: 0 auto;
 }
 
+/*Profili*/
 
+.profile{
+    margin: 0 20px 40px 20px;
+    height: 125px;
+    background-color: black;
+    width: calc(100% /3 - 45px);
+}
+
+.profile-photo{
+    margin-right: 12px;
+    height: 100%;
+}
+
+.profile-info{
+    padding: 12px;
+}
+
+p{
+    margin-bottom: 30px;
+}
 
