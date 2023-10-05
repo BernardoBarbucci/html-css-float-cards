@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/*fredoka a tutto e tutti*/
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+header{
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1{
+    color: rgb(189, 73, 164);
+}
+
+main{
+    padding: 30px;
+    text-align: center;
+}
+
