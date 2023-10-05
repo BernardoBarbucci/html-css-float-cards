@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*clearfix*/
 .clearfix::after{
     content: "";
     display: block;
@@ -33,7 +34,12 @@ h1{
 }
 
 main{
-    padding: 30px;
+    padding-top: 35px;
     text-align: center;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
 }
+
+
 
