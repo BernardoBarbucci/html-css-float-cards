@@ -53,6 +53,7 @@ main{
     height: 115px;
     background-color: black;
     width: calc(100% /3 - 45px);
+    box-shadow: 10px 5px 5px rgb(58, 58, 58); ;
 }
 
 .profile-photo{
@@ -63,6 +64,7 @@ main{
 
 .profile-info{
     padding: 12px;
+    
 }
 
 p{
@@ -73,12 +75,13 @@ p{
     color: white;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .profile-job{
     color: white;
-    margin-bottom: 4px;
+    padding-top: 15px;
+    margin-bottom: 10px;
 }
 
 .profile-email{
