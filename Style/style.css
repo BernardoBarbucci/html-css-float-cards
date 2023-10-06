@@ -43,13 +43,14 @@ main{
     width: 75%;
     text-align: center;
     margin: 0 auto;
+    height: 110px;
 }
 
 /*Profili*/
 
 .profile{
     margin: 0 20px 40px 20px;
-    height: 125px;
+    height: 115px;
     background-color: black;
     width: calc(100% /3 - 45px);
 }
@@ -57,6 +58,7 @@ main{
 .profile-photo{
     margin-right: 12px;
     height: 100%;
+    float: left;
 }
 
 .profile-info{
@@ -67,3 +69,18 @@ p{
     margin-bottom: 30px;
 }
 
+.profile-name{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.profile-job{
+    color: white;
+    margin-bottom: 4px;
+}
+
+.profile-email{
+    color: rgb(46, 140, 199);
+}
